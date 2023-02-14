@@ -55,9 +55,9 @@ public class Ejercicio1 {
 	 * @param arr El array donde buscar
 	 * @return true si lo encuentra, false en otro caso
 	 */
-	public static boolean contains(int n, int[] arr) {
-		for(int i = 0; i < arr.length; i++) {
-			if (arr[i] == n)
+	public static boolean contains(int n, int[] array1) {
+		for(int i = 0; i < array1.length; i++) {
+			if (array1[i] == n)
 				return true;
 		}
 		return false;
